@@ -24,4 +24,4 @@ export PYTHONPATH=$HOMETEL/builds/$USETELCFG/wrap_api/lib:$PYTHONPATH
 export PYTHONUNBUFFERED='true'
 
 ### METIS -------------------------------------------------------------
-export METISHOME=~/dev/hackaton-hpc-telemac/optionals/metis
+export METISHOME=$HOMETEL/optionals/metisGNU

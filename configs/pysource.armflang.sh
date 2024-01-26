@@ -9,9 +9,9 @@ export HOMETEL=$HOME/dev/hackaton-hpc-telemac
 # Configuration file
 export SYSTELCFG=$HOMETEL/configs/systel.cfg
 # Name of the configuration to use
-export USETELCFG=gfortranHPC
+export USETELCFG=armflang
 # Path to this file
-export SOURCEFILE=$HOMETEL/configs/pysource.gfortranHPC.sh
+export SOURCEFILE=$HOMETEL/configs/pysource.armflang.sh
 # Add TELEMAC Python scripts to PATH
 export PATH=$HOMETEL/scripts/python3:.:$PATH
 # Add TELEMAC libraries to LD_LIBRARY_PATH
@@ -24,4 +24,4 @@ export PYTHONPATH=$HOMETEL/builds/$USETELCFG/wrap_api/lib:$PYTHONPATH
 export PYTHONUNBUFFERED='true'
 
 ### METIS -------------------------------------------------------------
-export METISHOME=$HOMETEL/optionals/metisGNU
+export METISHOME=$HOMETEL/optionals/metisARM
