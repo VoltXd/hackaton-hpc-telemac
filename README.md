@@ -1,3 +1,11 @@
+# Teratec HPC Hackathon - Telemac
+Almost all the repository comes from [Telemac's gitlab](https://gitlab.pam-retd.fr/otm/telemac-mascaret). Our works is :
+- The installation of the library METIS (./optionals/METIS*) 
+- Some pysource scripts and systel.cfg
+
+It unfortunatly does not work for armflang...
+
+
 ![openTELEMAC][telemac-banner]
 
 Introduction
